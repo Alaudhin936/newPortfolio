@@ -169,7 +169,7 @@ nav ul li a {
   }
   
 }
-@media (max-width:550px){
+@media (max-width:600px){
   .jd{
     display: none;
   }
