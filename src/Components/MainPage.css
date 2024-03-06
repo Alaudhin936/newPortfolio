@@ -1,0 +1,215 @@
+.total-container {
+  display: grid;
+  position: relative;
+  top: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.self-content {
+  display: flex;
+  justify-self: flex-start;
+  align-items: center;
+  position: relative;
+  gap: 40px;
+  top: 130px;
+  left: 20px;
+}
+
+.left-content {
+  position: relative;
+  left: 5px;
+
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  margin: -20px 0px;
+}
+.left-img img {
+  width: 20px;
+  cursor: pointer;
+}
+.left-img {
+  position: relative;
+  top: -70px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.rotation-container {
+  width: fit-content;
+  position: relative;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+#button1 {
+  background-color: white;
+  color: purple;
+}
+.buttons button:hover {
+  box-shadow: 0 0 10px purple;
+}
+.myProjects ul li {
+  margin: 5px 0px;
+}
+.myProjects {
+  box-shadow: 0 0 10px white;
+  padding: 10px;
+}
+.myProjects ul li a {
+  color: white;
+  text-decoration: none;
+}
+.myProjects ul li a:hover {
+  color: purple;
+}
+.buttons button {
+  border: 2px solid;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  border-color: purple;
+  outline: none;
+  color: white;
+  background-color: black;
+
+  height: 6vh;
+}
+.buttons {
+  position: relative;
+  display: flex;
+  gap: 20px;
+}
+.myImg img:hover {
+  box-shadow: 0 0 17px purple;
+  cursor: pointer;
+}
+.myImg img {
+  width: 190px; height: 38vh ;
+  border-radius: 290px;
+  border: 3px solid;
+  position: relative;
+  top: -85px;
+}
+.downlo img{
+  cursor: pointer;
+  width: 20px;
+  display: none;
+  transition: 0.2s ease-in-out;
+}
+.downlo:hover  img{
+  display: block;
+}
+.downlo:hover{
+  width: 140px;
+cursor: pointer;
+}
+
+.downlo{
+  
+transition: 0.2s ease-in-out;
+  gap: 2px;
+  box-shadow: 0 0 10px purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.5vh;
+  width: 120px;
+}
+.self1 {
+  align-items: center;
+  width: 400px;
+}
+body {
+  background-color: rgb(29, 28, 28);
+  color: white;
+  
+}
+nav {
+  display: flex;
+  position: relative;
+  left: -50px;
+}
+nav ul {
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+
+  gap: 20px;
+  
+}
+nav ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li a:hover{
+ box-shadow: 0 0 6px purple;
+}
+nav ul li a {
+  transition: 0.12s ease-in-out;
+  text-decoration: none;
+  display: flex;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  height: 4.5vh;
+  color: white;
+  border-color: purple;
+  justify-content: center;
+}
+.left-comment {
+  position: absolute;
+  left: -70px;
+  top: -2px;
+}
+@media (max-width:700px){
+  nav{
+    position: relative;
+    left: -400px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  
+}
+@media (max-width:550px){
+  .jd{
+    display: none;
+  }
+  .left-img{
+    position: relative;
+    top: -237px;
+  }
+  .downlo{
+    position: relative;
+   margin-right: -370px;
+    border: none;
+  }
+  .buttons{
+    position: relative;
+    left: 50px;
+  }
+.self-content{
+  display: flex;
+  position: relative;
+  top: 90px;
+  flex-direction: column;
+}
+  nav ul li a{
+    border: none;
+  }
+  .left-comment {
+    position: absolute;
+    left: 275px;
+    top: -2px;
+  }
+  .myImg img{
+    position: relative;
+    left: -70px;
+ 
+  visibility: hidden;
+  }
+
+}
+@media (max-width:450px){
+  .self-content{
+    top: 150px;
+  }
+}
