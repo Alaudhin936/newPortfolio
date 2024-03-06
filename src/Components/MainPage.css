@@ -212,4 +212,9 @@ nav ul li a {
   .self-content{
     top: 150px;
   }
+  .downlo{
+    position: relative;
+   margin-right: -250px;
+    border: none;
+  }
 }
