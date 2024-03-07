@@ -181,12 +181,12 @@ nav ul li a {
     top: -237px;
   }
   .downlo{
-    position: relative;
-   left: -29px;
-   top: -10px;
+   position: relative;
+   left: 15px;
+   top: 2px;
    width: 100px;
    height: 3vh;
-    border: none;
+   border: none;
   }
   .buttons{
     position: relative;
@@ -224,7 +224,7 @@ nav ul li a {
   }
   .downlo{
     position: relative;
-   margin-right: -250px;
+   margin-right: -200px;
     border: none;
   }
 }
