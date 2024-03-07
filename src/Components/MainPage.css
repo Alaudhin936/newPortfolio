@@ -170,6 +170,9 @@ nav ul li a {
   
 }
 @media (max-width:600px){
+  body{
+    overflow: hidden;
+  }
   .jd{
     display: none;
   }
@@ -179,7 +182,10 @@ nav ul li a {
   }
   .downlo{
     position: relative;
-   margin-right: -370px;
+   left: -29px;
+   top: -10px;
+   width: 100px;
+   height: 3vh;
     border: none;
   }
   .buttons{
@@ -189,7 +195,10 @@ nav ul li a {
 .self-content{
   display: flex;
   position: relative;
+  left: -90px;
   top: 90px;
+  align-items: center;
+  overflow: hidden;
   flex-direction: column;
 }
   nav ul li a{
@@ -199,12 +208,13 @@ nav ul li a {
     position: absolute;
     left: 275px;
     top: -2px;
+   
   }
   .myImg img{
     position: relative;
     left: -70px;
- 
-  visibility: hidden;
+    overflow: hidden;
+    visibility: hidden;
   }
 
 }
